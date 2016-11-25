@@ -1,0 +1,115 @@
+
+@mixin bg-slider($file,$zindex:2,$width: 100%, $top: 0){
+    background-image: url("../img/slide_#{$file}");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center top;
+    // background-attachment: fixed; 
+   	position: fixed;
+	left: 0;
+	top: $top;
+	z-index: $zindex;
+	height: 120% ;
+	width: $width ;
+}
+#slider-carouselFade{
+	.carouselFade-fade {
+	    .carouselFade-inner {
+			height: 100vh;
+			width: 100%;	    	
+	        .item {
+	            display: none;
+	            opacity: 0;
+	            position: fixed;
+				left: 0 ;
+	            top: 0;
+				height: 100% ;
+				width: 100% ;
+	        }
+			
+			.item:nth-child(1) {
+				.item-img:nth-child(1) {
+				    @include bg-slider("kalif_bg.jpg");
+				}
+				.item-img:nth-child(2) {
+				    @include bg-slider("kalif3-min.png",4);
+				}
+			}
+			.item:nth-child(2) {
+				.item-img:nth-child(1) {
+				    @include bg-slider("thom1.jpg");
+				}
+				.item-img:nth-child(2) {
+				    @include bg-slider("thom2-min.png",4);
+				}
+				.item-img:nth-child(3) {
+				    @include bg-slider("thom3-min.png",6,120%);
+				}
+			}
+			.item:nth-child(3) {
+				.item-img:nth-child(1) {
+				    @include bg-slider("nat1-min.png");
+				}
+				.item-img:nth-child(2) {
+				    @include bg-slider("nat2-min.png",4,100%,-30px);
+				}
+				.item-img:nth-child(3) {
+				    @include bg-slider("nat3-min.png",6,100%,-30px);
+				}
+			}
+	        
+	        .active{
+	            display: block;
+	            opacity: 1;
+	            z-index: 2;
+	        }
+			
+			.next, .prev{
+	        	display: block;
+	            z-index: 3;
+			}
+	        .left, .right {
+	            transition: opacity 1.8s ease-in-out 0.2s;
+	            opacity: 1;
+	        }
+	    }
+	    .carouselFade-control {
+	        z-index: 10;
+	    }
+		.half-screen{
+        	height: 200px ;
+        }
+        .nav-screen{
+        	height: 375px ;
+        }
+        a{
+			background: none;	
+        }
+	}
+	.carouselFade{
+		&-control, &-indicators{
+	  		visibility: hidden;
+		}
+		.glyphicon{
+			font-size: 50px;
+		}
+	}
+	.carouselFade:hover{
+		.carouselFade-control, .carouselFade-indicators{
+	  		visibility: visible;
+		}
+	}
+}
+	
+// @keyframes magic
+// {
+// 	50% { opacity: 1; }
+// 	90% { opacity: 1; }
+// 	93% { opacity: 0; }
+// 	96% { opacity: 1; }
+// 	100% { opacity: 0; }
+// }
+// body
+// {
+// 	animation: magic 6s infinite;
+// }

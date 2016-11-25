@@ -1,0 +1,31 @@
+$ShdowColor:       rgba(21, 85, 145, 0.8);
+$bg-white:         rgba(255,255,255,0.9);
+$bg-graybarColor:  rgba(71,117,177,0.7);
+
+$bgColorNav:       rgba(255, 255, 255, 0.8);
+$color-nav2:       rgba(238,114,2,0.5);
+$color-nav2full:   rgba(238,114,2,1);
+
+$bold :            rgba(0,86,168,0.9);
+$medium :          rgba(0,86,168,0.5);
+$light :           rgba(0,86,168,0.2);
+
+$orange-base:      #ee7202 !default;
+$orange-darker:    lighten($orange-base, 13.5%) !default; 
+$orange-dark:      lighten($orange-base, 20%) !default;   
+$orange:           lighten($orange-base, 33.5%) !default; 
+$orange-light:     lighten($orange-base, 46.7%) !default; 
+$orange-lighter:   lighten($orange-base, 93.5%) !default; 
+
+$blue-base:        rgba(0,86,168,1);
+$blue-darker:      rgba(0,86,168,0.9); 
+$blue-dark:        rgba(0,86,168,0.7);   
+$blue:             rgba(0,86,168,0.5); 
+$blue-light:       rgba(0,86,168,0.3); 
+$blue-lighter:     rgba(0,86,168,0.1); 
+
+$header-zindex: 40;
+$content-zindex: 30;
+$footer-zindex: 10;
+$sup-zindex: 40 !important;
+

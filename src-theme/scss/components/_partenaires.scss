@@ -1,0 +1,69 @@
+
+@mixin background-logo($url){
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+.carousel2{
+    h3 {
+       text-transform: uppercase;
+    }
+    .btn {
+       margin-top: 20px;
+    }
+    &-inner{
+        .item{
+            // width: 90%;
+            ul{
+                padding: 0px 100px;
+                li{
+                    display: inline-block;
+                    min-width: 150px;
+                    height: 150px;
+                }
+                a{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .logos{
+                margin: 30px 0;
+                .vivametal{
+                    @include background-logo("../img/Viwametal.png");
+                }
+                .rota{
+                    @include background-logo("../img/ROTA_VERT_2012.png");
+                }
+                .renault{
+                    @include background-logo("../img/Renault.png");
+                }
+                .nathoch{
+                    @include background-logo("../img/Logo_NH_2014.gif");
+                }
+                .beyer{
+                    @include background-logo("../img/logoBeyer-2.png");
+                }
+                .keller{
+                    @include background-logo("../img/Kellersign_4.png");
+                }
+                .trade{
+                    @include background-logo("../img/Ja_Trade_FR_2.png");
+                }
+                .pierre{
+                    @include background-logo("../img/Cycle_Pierre_1.png");
+                }
+            }
+        }
+    }
+    &-control{
+        background: none !important;
+    }
+    .glyphicon {
+        &.glyphicon-chevron-left, &.glyphicon-chevron-right {
+            color: black;
+        }
+    }
+}
+

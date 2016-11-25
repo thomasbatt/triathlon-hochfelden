@@ -1,0 +1,216 @@
+#page{
+  // background-color: #fff;
+  margin-bottom: 20px;
+  display: block;
+  .container{
+    padding: 30px 50px;  
+    background-color: $bg-white;
+    h1{
+      padding-bottom: 10px;
+      color: $color-nav2full;
+    }
+    hr{
+      display: inline-block;
+    }
+    iframe{
+      width: 100%;
+    }
+    img.ajmt{
+      margin-top: -20px;
+    }
+    &.page{
+      img{
+        width: 100%;
+      }
+    }
+    &.nouvelles{
+      .img-wrapper{
+        width: 100%;
+        height: 140px;
+        overflow-y: hidden;
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    &.trombinoscope{
+      img{
+        width: 80%;
+      }
+    }
+    .ex-main{
+      width: 100%;
+      #map{
+        width: 100%;
+      }
+    }
+  }
+}
+#wrapper-content{
+  .container{
+    background: none;
+    padding: 0;
+  }
+  margin-bottom: -20px;
+}
+
+.content-block {
+  width: 100%;
+  padding: 20px 0 0;
+  position: relative;
+  z-index: $content-zindex;
+
+}
+
+#mesure {
+  background-color: rgba(0,0,0,0.5);
+  // background: #000 center center no-repeat;
+  // background-size: cover auto;
+  .sub-title {
+    margin-bottom: 110px;
+  }
+  h2 {
+    font-size: 25px;
+    font-style: italic;
+    color: #EE7202;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 20px;
+  }
+  hr {
+    display: inline-block;
+    border-color: #EE7202;
+    width: 200px;
+    margin: 0;
+    height: 5px;
+  }
+  h3 {
+    display: inline-block;
+    padding: 0 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .up {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "AvantGardecn";
+    span {
+      font-size: 20px;
+      margin-left: 5px;
+    }
+  }
+  .down {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "AvantGardecn";
+    span {
+      font-size: 14px;
+      margin-left: 5px;
+    }
+  }
+  h4 {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  .btn {
+    margin-top: 40px;
+  }
+}
+
+#counter {
+  background: #EE7202;
+  .map-holder {
+    position: relative;
+  }
+  .tri-logo{
+    position: absolute;
+    top: -110px;
+    right: 0;
+    // width: 58%;
+    // height: auto;
+    width: 400px;
+    height: 95px;
+    background-image: url('../img/triathlon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    // background-attachment: fixed;  
+  }
+  .text-up {
+    color: #fff;
+    font-size: 18px;
+  }
+  .text-counter {
+    color: #fff;
+    font-size: 50px;
+    // font-zeight: 700;
+    font-family: "AvantGardecn";
+  }
+  .btn {
+    margin-top: 20px;
+    color: #EE7202;
+    background: #fff;
+    text-transform: none;
+  }
+  
+}
+
+#parcours-img img {
+  width: auto;
+  height: auto;
+}
+
+#parcours {
+  padding: 0 0 60px 0;
+  margin-top: -50px;
+}
+
+.nav-tabs {
+  border: 0;
+}
+
+#tabs {
+  margin-top: 30px;
+  li a {
+    border: 0;
+    display: inline-block;
+    width: 210px;
+    height: 162px;
+    text-align: center;
+    line-height: 142px;
+    border-radius: 0;
+    background: #777;
+  }
+}
+
+#inscription #tabs li a {
+  height: auto;
+  line-height: normal;
+}
+
+#tabs li {
+  &.active a, a:hover {
+    border: 0;
+    background: #ebebeb;
+  }
+}
+
+.tab-content {
+  border: 0;
+  background: #ebebeb;
+  padding: 20px;
+  h4 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "AvantGardecn";
+    text-transform: uppercase;
+  }
+}
+
+
