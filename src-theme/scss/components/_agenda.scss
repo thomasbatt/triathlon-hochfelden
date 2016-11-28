@@ -1,0 +1,96 @@
+html body{
+	#page{
+		#header, hr{
+	      display: none;
+	    }
+		#tribe-events{
+			&-content{
+				margin-bottom: 0;
+				.tribe-events-tooltip h4{
+					text-transform: capitalize;
+				}
+			}
+			&-bar{
+		    	display: none !important;
+		    }
+		    &-pg-template{
+		    	padding: 0;
+		    }
+			h2.tribe-events-page-title{
+				color: $orange-base;
+			}
+			.tribe-events{
+				&-title{
+					padding-top: 20px;
+					text-transform: uppercase;
+				}
+				&-back{
+					text-align: right;
+					text-transform: uppercase;
+				}
+				&-button{
+					background-color: $orange-base;
+					&:hover{
+						background-color: $orange-darker;
+					}
+				}
+				&-calendar {
+					a{
+						color: #333;
+						text-transform: uppercase;
+					}
+					a:hover, a:focus{
+						color: $orange-base;
+					}
+					thead th{
+						background-color: $blue-darker;
+						border-left: 1px solid $blue-darker;
+						border-right: 1px solid $blue-darker;
+					}
+					td{
+						&.tribe-events-present{
+							div[id*="tribe-events-daynum-"]{
+								background-color: $orange-base;
+								&>a{
+									background-color: $orange-base;
+									color: #fff;
+								}
+							}
+							&.mobile-active, &.mobile-active:hover{
+								background-color: $orange-base;
+							}
+						}
+						& div[id*="tribe-events-daynum-"]{
+							color: #fff;
+						}
+						&.mobile-active, &.mobile-active:hover{
+							background-color: $orange-base;
+						}
+					}
+					div[id*="tribe-events-daynum-"]{
+						background-color: $blue;
+					}
+				}
+				&-sub-nav{
+					text-transform: uppercase;
+					& li a{
+						background: none;
+					}
+				}
+			}
+			.tribe-bar-views{
+				&-inner{
+					background: $orange-lighter;
+				}
+			}
+			#tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a{
+				background: $orange-lighter;
+			}
+			#tribe-events-footer{
+				a{
+					color: $orange-base;
+				}
+			}
+		}	
+	}
+}

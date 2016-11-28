@@ -1,0 +1,34 @@
+/*========================================
+=            VENDORS INCLUDES            =
+========================================*/
+
+@@if (develop === false) {
+	@import "vendors/app";
+}
+
+/*========================================
+=            WEBSITE INCLUDES            =
+========================================*/
+
+@import "../style";
+
+// ----------------BASE------------
+@import "components/fonts",
+		"variables",
+		"base"; 
+
+// ---------------LAYOUT------------
+@import "layout/header",
+		"layout/content",
+		"layout/footer";
+
+// // --------------COMPONENTS------------
+@import "components/partenaires",
+		"components/carousel",
+		// "components/divers",
+		"components/loading",
+		"components/agenda",
+		"components/forms";
+
+// // -------------RESPONSIVE------------
+@import "responsive";

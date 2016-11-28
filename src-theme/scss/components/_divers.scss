@@ -1,0 +1,585 @@
+
+
+
+// .mlensclass {
+//   position: relative;
+//   width: 100%;
+// }
+
+// .sticky-next {
+//   position: fixed;
+//   bottom: 0;
+//   background: url(img/next-scroll.gif) no-repeat center center white;
+//   width: 100%;
+//   height: 50px;
+// }
+
+// #parcours-img {
+//   text-align: center;
+// }
+
+// .wpcf7 {
+//   input {
+//     line-height: normal;
+//     font-size: 15px;
+//     height: 48px;
+//     padding-left: 8px;
+//     width: 100%;
+//   }
+//   textarea {
+//     line-height: normal;
+//     font-size: 15px;
+//     height: 48px;
+//     padding-left: 8px;
+//     width: 100%;
+//     height: 120px;
+//     width: 100%;
+//   }
+// }
+
+// nav {
+//   &.graybar.open, .col-btn {
+//     background: #5c5c5c;
+//   }
+// }
+
+// #slider {
+//   .date {
+//     font-size: 60px;
+//   }
+//   .france {
+//     background: url('../../uploads/flags/fr.jpg') no-repeat left top;
+//     padding-left: 25px;
+//     line-height: 20px;
+//     float: left;
+//     font-size: 30px;
+//   }
+//   .ville {
+//     color: white;
+//     font-size: 50px;
+//     line-height: 40px;
+//     font-weight: bold;
+//     float: left;
+//     width: auto;
+//   }
+//   .region {
+//     display: block;
+//     float: left;
+//     margin-top: -20px;
+//     font-size: 18px;
+//   }
+//   p {
+//     margin-bottom: -10px;
+//     font-size: 18px;
+//   }
+// }
+
+// .mlensclass {
+//   text-align: center;
+//   .one {
+//     margin-bottom: 10px;
+//     max-height: 608px;
+//   }
+//   img {
+//     width: 100%;
+//     margin: auto;
+//   }
+// }
+
+// #parcours-img img {
+//   width: 100%;
+//   max-height: 1200px;
+//   max-width: 1300px;
+// }
+
+// body {
+//   &.programme .table > tbody > tr > td {
+//     width: 18%;
+//   }
+//   &.qui-sommes-nous #page h4 {
+//     margin-bottom: -12px;
+//   }
+//   &.tarifs .alert, &.rates .alert, &.preise .alert {
+//     width: 60%;
+//     margin: auto;
+//     margin-top: -28px;
+//   }
+//   &.hebergement table tr th, &.accommodations table tr th, &.ubernachtung table tr th {
+//     text-align: center;
+//   }
+// }
+
+// .row.reza p:first-of-type {
+//   display: none;
+// }
+
+// body {
+//   &.programme h2, &.programm h2 {
+//     margin-top: 45px;
+//     margin-bottom: 0;
+//   }
+// }
+
+// #inscription {
+//   #tabs li {
+//     width: 25%;
+//     font-family: "AvantGardecn";
+//     a {
+//       border: 0;
+//       display: inline-block;
+//       text-align: center;
+//       border-radius: 0;
+//       background: #c3c3c3;
+//       padding: 10px 0;
+//       border-top: 6px solid #c3c3c3;
+//       color: #fff;
+//       text-align: center;
+//       width: 100%;
+//     }
+//     &.active a {
+//       border: 0;
+//       background: #e2e2e2;
+//       border-top: 6px solid #EE7202;
+//       color: #000000;
+//     }
+//   }
+//   .tab-content {
+//     border: 0;
+//     background: #e2e2e2;
+//     padding: 20px;
+//     color: #7d7d7d;
+//   }
+//   label {
+//     font-weight: 200;
+//     color: #7d7d7d;
+//     font-size: 12px;
+//     display: block;
+//   }
+//   .form-control {
+//     border-radius: 0;
+//     border: 0;
+//     box-shadow: none;
+//   }
+//   hr {
+//     border-color: #a1a1a1;
+//   }
+//   .btn-right i {
+//     margin-left: 20px;
+//   }
+//   .btn {
+//     margin-bottom: 20px;
+//   }
+//   .btn-left i {
+//     margin-right: 20px;
+//   }
+//   .mb30 {
+//     margin-bottom: 30px;
+//   }
+//   .mt60 {
+//     margin-top: 60px;
+//   }
+//   .mt15 {
+//     margin-top: 15px;
+//   }
+//   .opt-list {
+//     border-bottom: 1px solid #a1a1a1;
+//     margin: 20px 0;
+//     padding: 10px 0;
+//     &:after {
+//       display: block;
+//       clear: both;
+//       content: "";
+//     }
+//   }
+// }
+
+// .highlight {
+//   color: #e35b5b;
+// }
+
+// .pricing {
+//   font-family: "AvantGardecn";
+//   font-size: 30px;
+// }
+
+// .paiement {
+//   padding: 100px 0;
+// }
+
+// .btn-paiement {
+//   display: block;
+//   background: #fff;
+//   text-align: center;
+//   padding: 20px 0;
+// }
+
+// .paiement-contain {
+//   padding: 150px 0;
+// }
+
+// #inscription input:focus {
+//   border-bottom: 2px solid #EE7202;
+// }
+
+// .control-group .error label, ul[role=alert] {
+//   color: #EE7202;
+// }
+
+// .control-group.error {
+//   .controls input, > div > input {
+//     background: #fed7d7;
+//   }
+// }
+
+// #inscription .select {
+//   background-color: #fff;
+//   padding: 9px 0 5px 10px;
+//   position: relative;
+//   text-align: left;
+//   z-index: 1;
+// }
+
+// .opt-list .select {
+//   margin-top: -10px;
+// }
+
+// #inscription .select::after {
+//   border-left: 0.375em solid transparent;
+//   border-right: 0.375em solid transparent;
+//   border-top: 0.375em solid #999;
+//   content: '';
+//   float: right;
+//   height: 0;
+//   margin-top: -0.1875em;
+//   position: absolute;
+//   right: 0.75em;
+//   top: 50%;
+//   width: 0;
+//   z-index: -2;
+// }
+
+// .select select {
+//   cursor: pointer;
+//   display: block;
+//   width: 100%;
+// }
+
+// #inscription .select.tel {
+//   float: left;
+//   width: 30%;
+// }
+
+// .select.tel select {
+//   cursor: pointer;
+//   display: block;
+//   width: 30%;
+// }
+
+// #inscription {
+//   .tel::before {
+//     border-right: 1px solid #e2e2e2;
+//     content: '';
+//     height: 70%;
+//     position: absolute;
+//     right: 0;
+//     top: 15%;
+//     width: 0;
+//   }
+//   .tel-container input {
+//     float: left;
+//     width: 70%;
+//   }
+//   .radio-container label {
+//     display: inline-block !important;
+//     margin: 0 8px;
+//     cursor: pointer;
+//   }
+//   .select select {
+//     left: 0;
+//     height: 100%;
+//     min-height: 100%;
+//     min-width: 100%;
+//     opacity: 0;
+//     position: absolute;
+//     top: 0;
+//   }
+// }
+
+// .radio, .checkbox {
+//   display: inline-block;
+// }
+
+// .radio input, .checkbox input {
+//   border: 0;
+//   clip: rect(0 0 0 0);
+//   height: 1px;
+//   margin: -1px;
+//   overflow: hidden;
+//   padding: 0;
+//   position: absolute;
+//   width: 1px;
+// }
+
+// /* style the "fake" radios */
+
+// .radio-value {
+//   background-color: #fff;
+//   border-radius: 50%;
+//   display: inline-block;
+//   height: 1.5em;
+//   margin-right: 0.25em;
+//   position: relative;
+//   vertical-align: -0.3em;
+//   width: 1.5em;
+// }
+
+// .assurance .radio-value {
+//   border-radius: 0;
+// }
+
+// .checkbox-value {
+//   background-color: #fff;
+//   display: inline-block;
+//   height: 1.5em;
+//   line-height: 1.5em;
+//   margin-right: 0.25em;
+//   position: relative;
+//   vertical-align: -0.3em;
+//   width: 1.5em;
+// }
+
+// input:checked + {
+//   .radio-value {
+//     background-color: #e2e2e2;
+//     border: 4px solid #fff;
+//   }
+//   .checkbox-value {
+//     background-color: #fff;
+//     border: 4px solid #fff;
+//     font-weight: bold;
+//   }
+// }
+
+// .recap .row {
+//   padding: 10px 0;
+// }
+
+// .course-selected {
+//   width: 70px;
+//   height: auto;
+//   margin-left: 10px;
+// }
+
+// .redtext {
+//   color: #EE7202;
+// }
+
+// .greentext {
+//   color: #64b94c;
+// }
+
+// .bluetext {
+//   color: #2386c4;
+// }
+
+// #code-vip {
+//   color: #EE7202;
+//   font-weight: 700;
+//   width: 80%;
+//   float: left;
+// }
+
+// .btn-code-vip {
+//   position: relative;
+//   display: inline-block;
+//   background: #fff;
+//   width: 20%;
+//   text-align: center;
+//   padding: 9px 0 5px 0px;
+//   color: #EE7202;
+//   float: left;
+//   &:hover {
+//     color: #000;
+//   }
+//   &::before {
+//     border-left: 1px solid #e2e2e2;
+//     content: '';
+//     height: 70%;
+//     position: absolute;
+//     left: 0;
+//     top: 15%;
+//     width: 0;
+//   }
+// }
+
+// .table > {
+//   tbody > tr > {
+//     td, th {
+//       vertical-align: middle;
+//     }
+//   }
+//   tfoot > tr > {
+//     td, th {
+//       vertical-align: middle;
+//     }
+//   }
+//   thead > tr > {
+//     td, th {
+//       vertical-align: middle;
+//     }
+//   }
+// }
+
+// tfoot {
+//   background: #ddd;
+// }
+
+// thead, tfoot {
+//   display: table-header-group;
+// }
+
+// .flagtab {
+//   width: 30px;
+//   height: auto;
+// }
+
+// .drapb {
+//   .btn {
+//     margin-bottom: 0;
+//     position: relative;
+//     height: 34px;
+//     line-height: 34px;
+//     background: #fff;
+//     width: 100%;
+//     padding: 0 0 0 7px;
+//     border-radius: 0;
+//     text-align: left;
+//     &::after {
+//       border-left: 0.375em solid transparent;
+//       border-right: 0.375em solid transparent;
+//       border-top: 0.375em solid #999;
+//       content: '';
+//       float: right;
+//       height: 0;
+//       margin-top: -0.1875em;
+//       position: absolute;
+//       right: 0.50em;
+//       top: 50%;
+//       width: 0;
+//     }
+//   }
+//   .dropdown-menu {
+//     position: absolute;
+//     top: 66%;
+//     left: 15px;
+//     z-index: 1000;
+//     float: left;
+//     width: 62px;
+//     min-width: 60px;
+//     padding: 5px 9px;
+//     margin: 2px 0 0;
+//     font-size: 14px;
+//     text-align: left;
+//     list-style: none;
+//     background-color: #fff;
+//     -webkit-background-clip: padding-box;
+//     background-clip: padding-box;
+//     border: 0;
+//     border-radius: 0;
+//     box-shadow: none;
+//     li {
+//       margin: 4px 0;
+//       cursor: pointer;
+//     }
+//   }
+// }
+
+// .control-group.error {
+//   .controls select {
+//     background: #fed7d7;
+//   }
+//   .select {
+//     background: #FED7D7 !important;
+//   }
+// }
+
+// .btn1 {
+//   padding: 10px 20px 5px;
+//   background: #2486c4;
+//   text-transform: uppercase;
+//   line-height: 20px;
+// }
+
+// .btn2 {
+//   padding: 10px 20px 5px;
+//   background: #49a54c;
+//   text-transform: uppercase;
+//   line-height: 20px;
+// }
+
+// .bntparcours {
+//   position: relative;
+//   top: -50px;
+//   left: 165px;
+// }
+
+// .bntparcours1 {
+//   position: relative;
+//   top: -50px;
+//   left: 210px;
+// }
+
+// .bntparcours2 {
+//   position: relative;
+//   top: -50px;
+//   left: 195px;
+// }
+
+// body {
+//   &.hebergement .table-hover td, &.accommodations .table-hover td, &.ubernachtung .table-hover td {
+//     vertical-align: middle;
+//   }
+//   &.hebergement .table-hover .alert-info, &.accommodations .table-hover .alert-info, &.ubernachtung .table-hover .alert-info {
+//     padding-top: 8px;
+//     padding-bottom: 5px;
+//     background-color: #7b7575;
+//     border-color: #7b7575;
+//     color: #ffffff;
+//     text-transform: uppercase;
+//   }
+//   &.hebergement .table-hover .alert, &.accommodations .table-hover .alert, &.ubernachtung .table-hover .alert {
+//     margin-bottom: 0px;
+//   }
+// }
+
+// #rev_slider_1_1_wrapper {
+//   background-color: #E9E9E9;
+//   padding: 0px;
+// }
+
+// .tp-caption.whirees, .whirees {
+//   line-height: 30px;
+//   font-weight: 400;
+//   color: #ffffff;
+//   text-decoration: none;
+//   text-shadow: none;
+//   background-color: transparent;
+//   font-size: 20px;
+//   border-width: 0px;
+//   border-color: rgb(0, 0, 0);
+//   border-style: none;
+// }
+
+// .tp-caption.lfb.rs-parallaxlevel-0 {
+//   z-index: 5;
+// }
+
+// .glyphicon {
+//   &.glyphicon-chevron-left, &.glyphicon-chevron-right {
+//     color: black;
+//   }
+// }
+
+// .footer-top {
+//   background-image: url();
+// }

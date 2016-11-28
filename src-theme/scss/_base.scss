@@ -1,0 +1,162 @@
+html {
+  // overflow-x: hidden;
+  max-height: 100%;
+  max-width: 100%;
+
+  body {
+    // position: relative;
+    // opacity: 1;
+    // transition: 1s opacity;
+    
+    // overflow-x: hidden;
+    font-family: AvantGarde;
+    font-weight: 400;
+    font-style: normal;
+    header, #slider-carouselFade, #page, #wrapper-content, footer{
+      display: block;
+      opacity: 0;
+    }
+  }
+
+  .transition{
+    transition: all 0.5s;
+  }
+
+  .display{
+    display: block !important;
+  }
+
+  .no-display{
+    opacity: 0 !important;
+    transition: 1s opacity;
+    display: none !important;
+  }
+
+  ol, ul {
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+
+  .btn {
+    padding: 10px 20px 5px;
+    background: #EE7202;
+    text-transform: uppercase;
+    line-height: 20px;
+  }
+
+  a.btn {
+    color: white;
+  }
+
+  .text-red {
+    color: #ec1a29;
+  }
+
+  .text-green {
+    color: #64b94c;
+  }
+
+  .text-blue {
+    color: #4397cf;
+  }
+
+  .fullwidth {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  p {
+    line-height: 20px;
+    margin: 10px 0 20px 0;
+  }
+
+  h1 {
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+    font-family: "AvantGardecn";
+  }
+
+  h2 {
+    color: #5a5a5a;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "AvantGardecn";
+    /*margin-bottom:40px;*/
+  }
+
+  img{
+    width: 50%;
+    height: auto;
+  }
+
+
+  b{
+    color: $bold;
+  }
+
+  .quote {
+    color: #EE7202;
+    font-size: 40px;
+    font-family: "HansHand";
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .topbar {
+    height: 68px;
+    padding: 15px 0;
+    /* background: #393939; */
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  .socials li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    a {
+      display: block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: #fff;
+      &.icon-facebook {
+        background: #4a6ea9;
+      }
+      &.icon-twitter {
+        background: #32def4;
+      }
+    }
+  }
+
+  .lang li {
+    display: inline-block;
+    width: 40px;
+    margin: 5px;
+    a img {
+      width: 40px;
+      height: auto;
+    }
+  }
+
+  .bg-white{
+      background-color: $bg-white;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+

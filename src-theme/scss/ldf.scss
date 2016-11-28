@@ -1,0 +1,18 @@
+/*========================================
+=            	PRELOADING
+			LIGNE DE FLOTTAISON          =
+========================================*/
+
+
+// ----------------BASE------------
+@import "variables",
+		"base"; 
+
+// ---------------LAYOUT------------
+@import "layout/header";
+
+// // --------------COMPONENTS------------
+@import "components/carousel";
+
+// // -------------RESPONSIVE------------
+@import "responsive";
